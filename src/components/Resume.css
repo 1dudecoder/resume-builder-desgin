@@ -1,0 +1,340 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  width: 80%;
+  display: flex;
+  margin-top: 1rem;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+.userName {
+  width: 60%;
+}
+
+.about-me {
+  width: 40%;
+  margin-left: 0.5rem;
+}
+
+.left-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  border: 2px solid black;
+  padding-block: 0.5rem;
+  position: relative;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.left-details div{
+    margin-top: 1rem;
+}
+
+.Exper {
+  margin-top: 1rem;
+  padding-inline: 1rem;
+  border: 2px solid black;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.exper-name {
+    position: absolute;
+    top: -15px;
+    padding: 0.5rem;
+    left: 1px;
+    color:  rgb(24, 144, 255);
+    font-weight: 800;
+    font-size: larger;
+    display: flex;
+}
+
+.exper-name p{
+    padding-left: 0.2rem;
+}
+
+
+.inner-exper {
+  padding-left: 1rem;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outer-comp {
+  margin-top: 1.5rem;
+}
+
+.outer-key {
+  margin-top: 1rem;
+  padding-inline: 1rem;
+  border: 2px solid black;
+  padding-block: 1rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.inner-key {
+  padding-inline: 1rem;
+  padding-top: 1rem;
+}
+
+.my-img {
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  height: 4rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.my-img img {
+  width: 100%;
+}
+
+.inner-about {
+  width: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.inner-about img {
+  width: 100%;
+}
+
+.outer-about {
+  padding-inline: 0.5rem;
+  border: 2px solid black;
+  padding-block: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  position: relative;
+}
+
+
+.inner-career{
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding-inline: 0.5rem;
+    padding-block: 1rem;
+    border-radius: 1rem;
+    padding-top: 1.5rem;
+    position: relative;
+}
+
+.outer-tech{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 0.3rem;
+
+}
+
+.percent{
+    width: 60%;
+    height: 0.5rem;
+    background-color: #52c41a;
+    
+}
+
+.outer-tech div:nth-child(1){
+    padding-right: 0.3rem;
+}
+
+.main-tech{
+    border: 2px solid black;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding-block: 1rem;
+    position: relative;
+    padding-top: 1.5rem;
+}
+
+
+.inner-skills{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding-block: 1.2rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.inner-skills > p{
+    border: 2px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+}
+
+.educ-items{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 0.5rem;
+}
+
+.inner-education{
+    border: 2px solid black;
+    margin-top: 1rem;
+    padding-bottom: 1.2rem;
+    border-radius: 1rem;
+    position: relative;
+    padding-top: 1rem;
+}
+
+.inner-education > div{
+    margin-top: 1rem;
+}
+
+.inner-education hr{
+    height: 1px;
+    width: 95%;
+    align-self: center;
+    margin-block: 1rem;
+}
+
+/* top names */
+
+.top-name{
+    position: absolute;
+    top: -38px;
+    left: 1px;
+    background: white;
+    padding: 0.2rem;
+}
+
+.top-name p{
+    color: rgb(24, 144, 255);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.icons-name{
+    display: flex;
+    position: absolute;
+    top: -45px;
+    right: 4px;
+    font-size: 1.5rem;
+}
+
+.icons-name div {
+    margin-right: 0.5rem;
+}
+
+.key-name{
+  position: absolute;
+  top: -15px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.key-name p{
+  padding-left: 0.2rem;
+}
+
+.certi-name{
+  position: absolute;
+  top: -15px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.certi-name p{
+  padding-left: 0.2rem;
+}
+
+.about-name{
+  position: absolute;
+  top: -15px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.about-name p {
+  padding-left: 0.2rem;
+}
+
+.carrer-name{
+  position: absolute;
+  top: -15px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.carrer-name p {
+  padding-left: 0.2rem;
+}
+
+.tech-name{
+  position: absolute;
+  top: -15px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.tech-name p {
+  padding-left: 0.2rem;
+}
+
+.skills-name {
+  position: absolute;
+  top: -15px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.skills-name p {
+  padding-left: 0.2rem;
+}
+
+.educ-name{
+  position: absolute;
+  top: -31px;
+  padding: 0.5rem;
+  left: 1px;
+  color: rgb(24, 144, 255);
+  font-weight: 800;
+  font-size: larger;
+  display: flex;
+}
+
+.educ-name p {
+  padding-left: 0.2rem;
+}
